@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:usb2spi-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,7 +32,7 @@ LIBS:valves
 LIBS:cp2130
 LIBS:sp0503baht
 LIBS:usb2spi-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -68,7 +69,7 @@ F 3 "" H 4850 3150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D1
+L LED-RESCUE-usb2spi D1
 U 1 1 5AB247FF
 P 5700 2600
 F 0 "D1" V 5750 2400 50  0000 L CNN
@@ -79,7 +80,7 @@ F 3 "" H 5700 2600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R2
+L R-RESCUE-usb2spi R2
 U 1 1 5AB24D8C
 P 5350 2600
 F 0 "R2" V 5143 2600 50  0000 C CNN
@@ -90,7 +91,7 @@ F 3 "" H 5350 2600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R1
+L R-RESCUE-usb2spi R1
 U 1 1 5AB257B7
 P 3200 3300
 F 0 "R1" V 3150 2850 50  0000 C CNN
@@ -101,7 +102,7 @@ F 3 "" H 3200 3300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CP C1
+L CP-RESCUE-usb2spi C1
 U 1 1 5AB25DE3
 P 2600 4150
 F 0 "C1" H 2650 4350 50  0000 L CNN
@@ -112,7 +113,7 @@ F 3 "" H 2600 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C2
+L CP-RESCUE-usb2spi C2
 U 1 1 5AB25E5E
 P 2900 4150
 F 0 "C2" H 2950 4350 50  0000 L CNN
@@ -123,7 +124,7 @@ F 3 "" H 2900 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C4
+L CP-RESCUE-usb2spi C4
 U 1 1 5AB25EC9
 P 3500 4150
 F 0 "C4" H 3550 4350 50  0000 L CNN
@@ -134,7 +135,7 @@ F 3 "" H 3500 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L C-RESCUE-usb2spi C3
 U 1 1 5AB25F26
 P 3200 4150
 F 0 "C3" H 3250 4350 50  0000 L CNN
